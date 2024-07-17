@@ -5,7 +5,6 @@ module.exports = app => {
 
     const router = require("express").Router();
 
-    //http://localhost:7001/api/students/getstudents
     router.get('/getstudents', studentController.getAllStudents);
 
     app.use('/api/students', router);
