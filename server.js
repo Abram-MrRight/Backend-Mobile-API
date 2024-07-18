@@ -46,9 +46,9 @@ app.post("/data", (req, res) => {
 require("./routes/student.routes")(app);
 
 // Define port for project
-const PORT = 7001;
+const PORT = 4040;
 
 // Monitor when server starts
-app.listen(PORT, () => {
+app.listen(PORT,() => {
     console.log(`Server has started on port ${PORT}`);
 });
